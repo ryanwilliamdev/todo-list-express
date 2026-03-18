@@ -27,7 +27,7 @@ app.get('/',async (request, response)=>{
     response.render('index.ejs', { items: todoItems, left: itemsLeft })
     // db.collection('todos').find().toArray()
     // .then(data => {
-    //     db.collection('todos').countDocuments({completed: false})
+    //     db.collection('todos').countDocuments({completed: false})    *SYNTAX FOR USING PROMISES, THEN AND CATCH*
     //     .then(itemsLeft => {
     //         response.render('index.ejs', { items: data, left: itemsLeft })
     //     })
