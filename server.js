@@ -85,7 +85,6 @@ app.delete('/deleteItem', (request, response) => {
         response.json('Todo Deleted')
     })
     .catch(error => console.error(error))
-
 })
 
 app.listen(process.env.PORT || PORT, ()=>{
